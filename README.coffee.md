@@ -37,6 +37,8 @@ Remove an existing target.
         @remove_gw = (target) =>
           @gwlist.remove target
 
+        return
+
 Layout
 ------
 
