@@ -10,9 +10,8 @@ Data
         constructor: (gwlist) ->
           gwlist ?= []
 
-          @gwlist = ko.observableArray []
-          for data in gwlist
-            @gwlist.push new RuleTarget data
+          @gwlist = ko.observableArray gwlist.map (data) ->
+            new RuleTarget data
           return
 
         toJS: ->
