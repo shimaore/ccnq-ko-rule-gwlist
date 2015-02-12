@@ -22,7 +22,8 @@ Model
 -----
 
       @view ({value,ko}) ->
-        assert value instanceof RuleGwlist, 'value should be an instance of RuleGwlist'
+        # assert value instanceof RuleGwlist, 'value should be an instance of RuleGwlist'
+        assert value?, 'value is required'
 
         @notify = ko.observable ''
 
