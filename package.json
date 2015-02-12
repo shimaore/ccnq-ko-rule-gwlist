@@ -24,7 +24,7 @@
   "homepage": "https://github.com/shimaore/ccnq-ko-rule-gwlist",
   "dependencies": {
     "ccnq-ko": "^3.1.0",
-    "ccnq-ko-rule-target": "^4.1.1"
+    "ccnq-ko-rule-target": "^4.1.2"
   },
   "devDependencies": {
     "knockout": "^3.2.0",
