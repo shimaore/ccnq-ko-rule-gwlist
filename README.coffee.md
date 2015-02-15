@@ -1,7 +1,7 @@
 A Knockout Widget for CCNQ4 gwlist
 ----------------------------------
 
-    module.exports = (require 'ccnq-ko') 'rule-gwlist', (ko) ->
+    module.exports = (require 'kow') 'rule-gwlist', (ko) ->
 
 Data
 ----
